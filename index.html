@@ -83,183 +83,191 @@
 </head>
 <body>
     <!-- Navigasi Start -->
-    <div class="relative max-w-[768px] md:max-w-[1024px] lg:max-w-[1280px] mx-auto sticky top-0 bg-slate-50 shadow-lg shadow-indigo-500/40 md:flex md:justify-between">
-        <nav class="flex justify-between items-center py-[20px] w-full">
-            <div class="lg:flex lg:items-center">
-                <div class="flex gap-2 items-center">
-                    <img src="logo.svg" alt="" class="px-0 ml-2 w-[50px]"><span class="font-bold text-xl">Mang<span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-red-500 to-blue-500 md:text-black pr-5">Coding</span></span>
+    <div class="sticky top-0 shadow-lg shadow-indigo-500/40 bg-white"> 
+        <div class="relative max-w-[768px] md:max-w-[1024px] lg:max-w-[1280px] mx-auto md:flex md:justify-between">
+            <nav class="flex justify-between items-center py-[20px] w-full">
+                <div class="lg:flex lg:items-center">
+                    <div class="flex gap-2 items-center">
+                        <img src="logo.svg" alt="" class="px-0 ml-2 w-[50px]"><span class="font-bold text-xl">Mang<span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-red-500 to-blue-500 md:text-black pr-5">Coding</span></span>
+                    </div>
+                    <div>
+                        <ul class="toggle-menu flex hidden lg:flex text-xl gap-3">
+                            <li class="hover:text-cyan-500 hover:animate-bounce md:font-bold"><a href="#">Home</a></li> 
+                            <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#what-people">About</a></li>
+                            <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#services">Services</a></li>
+                            <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#what-we-do">Our Work</a></li>
+                            <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#our-blog">Blog</a></li>
+                            <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#lets-build">Resource</a></li>
+                            <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <ul class="toggle-menu flex hidden lg:flex text-xl gap-3">
-                        <li class="hover:text-cyan-500 hover:animate-bounce md:font-bold"><a href="#">Home</li></a> 
-                        <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#what-people">About</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#services">Services</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#what-we-do">Our Work</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#our-blog">Blog</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#lets-build">Resource</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce md:text-slate-500"><a href="#contact">Contact</li></a>
-                    </ul>
-                </div>
-            </div>
 
-            <!--Dropdown Menu -->
-            <div class="dropdown-menu bg-cyan-400 hidden relative inline-block hover:block hover:bg-#3e8e41 md:flex lg:hidden">
-                <button class="dropdown-btn bg-#4CAF50 text-white px-[20px] text-[18px] cursor-pointer">About Us</button>
-                <div class="dropdown-content hidden absolute bg-#f9f9f9 min-w-[160px] z-[1] hover:block shadow-lg shadow-indigo-500/40 font-serif">
-                    <a href="#" class="text-black py-[12px] px-[16px] block hover:text-cyan-500 hover:animate-bounce">Home</a>
-                    <a href="#what-people" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">About</a>
-                    <a href="#services" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Services</a>
-                    <a href="#what-we-do" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Our Work</a>
-                    <a href="#our-blog" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Blog</a>
-                    <a href="#lets-build" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Resource</a>
-                    <a href="#contact" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Contact</a>
+                <!--Dropdown Menu -->
+                <div class="dropdown-menu bg-cyan-400 hidden relative inline-block hover:block hover:bg-#3e8e41 md:flex lg:hidden">
+                    <button class="dropdown-btn bg-#4CAF50 text-white px-[20px] text-[18px] cursor-pointer">About Us</button>
+                    <div class="dropdown-content hidden absolute bg-#f9f9f9 min-w-[160px] z-[1] hover:block shadow-lg shadow-indigo-500/40 font-serif">
+                        <a href="#" class="text-black py-[12px] px-[16px] block hover:text-cyan-500 hover:animate-bounce">Home</a>
+                        <a href="#what-people" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">About</a>
+                        <a href="#services" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Services</a>
+                        <a href="#what-we-do" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Our Work</a>
+                        <a href="#our-blog" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Blog</a>
+                        <a href="#lets-build" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Resource</a>
+                        <a href="#contact" class="text-black py-[12px] px-[16px] block hover:bg-#f1f1f1 hover:text-cyan-500 hover:animate-bounce">Contact</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="flex gap-5 hidden md:flex mx-2">
-                <img src="search.svg" alt="">
-                <button class="btn-get bg-cyan-400 py-3 px-7 rounded-full text-white hover:bg-white hover:text-cyan-900">Get Started</button>
-            </div>
-            <div id="menu-toggle" class="relative flex flex-col mx-2 h-[20px] justify-between md:hidden ">
-                <input type="checkbox" class="absolute opacity-0 w-[27px] h-[28px] top-[-5px] cursor-pointer z-[2]">
-                <span class="block bg-black rounded-md w-[25px] h-[3px]"></span>
-                <span class="block bg-black rounded-md w-[25px] h-[3px]"></span>
-                <span class="block bg-black rounded-md w-[25px] h-[3px]"></span>
-            </div>
-        </nav>
+                <div class="flex gap-5 hidden md:flex mx-2">
+                    <img src="search.svg" alt="">
+                    <button class="btn-get bg-cyan-400 py-3 px-7 rounded-full text-white hover:bg-white hover:text-cyan-900">Get Started</button>
+                </div>
+                <div id="menu-toggle" class="relative flex flex-col mx-2 h-[20px] justify-between md:hidden ">
+                    <input type="checkbox" class="absolute opacity-0 w-[27px] h-[28px] top-[-5px] cursor-pointer z-[2]">
+                    <span class="block bg-black rounded-md w-[25px] h-[3px]"></span>
+                    <span class="block bg-black rounded-md w-[25px] h-[3px]"></span>
+                    <span class="block bg-black rounded-md w-[25px] h-[3px]"></span>
+                </div>
+            </nav>
 
-        <!-- Navbar Humburger -->
-        <nav class="navbar-humburger max-w-[700px] mx-auto py-5 hidden bg-slate-100 shadow-lg shadow-indigo-500 md:hidden">
-            <div class="mx-4 flex justify-center gap-[200px]">
-                <div class="toggle-nav">
-                    <ul class="toggle-menu flex flex-col gap-5">
-                        <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#">Home</li></a> 
-                        <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#what-people">About</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#services">Services</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#what-we-do">Our Work</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#our-blog">Blog</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#lets-build">Resource</li></a>
-                        <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#contact">Contact</li></a>
-                    </ul>
+            <!-- Navbar Humburger -->
+            <nav class="navbar-humburger hidden max-w-[700px] mx-auto py-5 bg-slate-100 shadow-lg shadow-indigo-500 md:hidden">
+                <div class="mx-4 flex justify-between px-20">
+                    <div class="toggle-nav">
+                        <ul class="toggle-menu flex flex-col gap-5 font-serif text-lg">
+                            <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#">Home</li></a> 
+                            <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#what-people">About</li></a>
+                            <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#services">Services</li></a>
+                            <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#what-we-do">Our Work</li></a>
+                            <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#our-blog">Blog</li></a>
+                            <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#lets-build">Resource</li></a>
+                            <li class="hover:text-cyan-500 hover:animate-bounce"><a href="#contact">Contact</li></a>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <img src="search.svg" alt="" class="w-[20px]">
+                        <button class="btn-get bg-cyan-400 py-2 px-3 rounded-full text-white animate-pulse hover:bg-white hover:text-cyan-500 md:text-xl">Get Started</button>
+                    </div>
                 </div>
-                <div class="flex flex-col gap-5">
-                    <img src="search.svg" alt="" class="w-[20px]">
-                    <button class="btn-get bg-cyan-400 py-2 px-3 rounded-full text-white animate-bounce hover:bg-white hover:text-cyan-500 md:text-xl">Get Started</button>
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </div>
     <!-- Navigasi End -->
 
     <!-- Header Start -->
-    <div class="header max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto bg-slate-50 flex items-center">
-        <header class="w-[400px] md:w-[700px] mx-auto pt-20">
-            <h1 class="font-base text-heading-1 font-bold text-center leading-tight text-xl md:text-[40px] md:pb-5">It's Fun To Build a Website <br> With The <span class="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-purple-500 to-yellow-500 md:text-[40px] md:pb-5">Mangcoding Team</span></h1>
-            <p class="text-sm text-center text-[#636363] my-5 font-serif md:text-xl">The Mangcoding will help build a website for your company with quality and guaranteed services, with custom templates you can create a website as you like.</p>
-            <div class="action mx-auto flex justify-center items-center gap-5">
-                <button class="btn-get py-3 px-7 bg-cyan-400 rounded-full text-white hover:bg-white hover:text-cyan-500 md:text-xl">Get Started</button>
-                    <a href="#" class="underline flex items-center gap-1 font-bold hover:shadow-xl md:text-xl">Explore Our Blog<img src="arrow-right.svg" alt="">
-                  </a>
-            </div>
-            <div class="flex justify-center items-center">
-                <img src="thumbnail.png" alt="" class="w-400 items-center pt-[20px]">
-            </div>
-        </header>
+    <div class="bg-slate-50">
+        <div class="header max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto bg-slate-50 flex items-center">
+            <header class="w-[400px] md:w-[700px] mx-auto pt-20">
+                <h1 class="font-base text-heading-1 font-bold text-center leading-tight text-xl md:text-[40px] md:pb-5">It's Fun To Build a Website <br> With The <span class="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-purple-500 to-yellow-500 md:text-[40px] md:pb-5">Mangcoding Team</span></h1>
+                <p class="text-md text-center text-[#636363] my-5 font-serif md:text-xl">The Mangcoding will help build a website for your company with quality and guaranteed services, with custom templates you can create a website as you like.</p>
+                <div class="action mx-auto flex justify-center items-center gap-5">
+                    <button class="btn-get py-3 px-7 bg-cyan-400 rounded-full text-white hover:bg-white hover:text-cyan-500 md:text-xl">Get Started</button>
+                        <a href="#" class="underline flex items-center gap-1 font-bold hover:shadow-xl hover:text-sky-400 md:text-xl">Explore Our Blog<img src="arrow-right.svg" alt="">
+                    </a>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="thumbnail.png" alt="" class="w-400 items-center pt-[20px]">
+                </div>
+            </header>
+        </div>
     </div>
     <!-- Header Start -->
 
     <!-- Get Started -->
     <div class="get-start relative hidden ">
-        <div class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto fixed px-5 py-8 bg-lime-400 flex flex-col items-center gap-5 top-[88px] left-16 right-16">
+        <div class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto fixed px-5 py-8 bg-lime-400 flex flex-col items-center gap-5 top-[88px] left-[40px] right-[40px]">
             <div>
                 <button class="btn-close absolute top-2 right-2 py-2 px-2 bg-cyan-400 font-serif text-2xl text-black font-bold hover:bg-white hover:text-cyan-500 shadow-lg shadow-indigo-500/40">X</button>
             </div>
             <h1 class="font-base text-heading-1 font-bold text-center leading-tight text-xl pt-10 md:text-[40px] md:pb-5">Let's Build a <span class="text-sky-400">Website</span> or <span class="text-sky-400">Design</span> <br> With <span class="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-purple-500 to-yellow-500 md:text-[40px] md:pb-5">Mangcoding Team!</span></h1>
-            <button class="button-primary py-3 px-7 mt-5 bg-cyan-400 rounded-full text-white animate-bounce hover:bg-white hover:text-cyan-500 md:text-xl">Get <span>NOW</span></button> 
+            <button class="button-primary py-3 px-7 mt-5 bg-black rounded-full text-sky-400 text-xl font-[20px] animate-bounce hover:animate-none hover:bg-white hover:text-cyan-500 md:text-xl">Get <span>NOW</span></button> 
         </div>
     </div>
     <!-- Get Started -->
 
     <!-- Sponsor Start -->
-    <div class="sponsor max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex flex-col items-center">
-        <div class="mx-4 pb-10">
-            <div class="items-center">
-                <h2 class="text-center text-[#636363] pt-10 pb-5 text-lg">Brands that trust us</h2>
-            </div>
-            <div class="flex flex-col gap-10 items-center md:flex-row md:justify-between">
-                <img src="blech.png" alt="" class="w-[100px]">
-                <img src="ceria.png" alt="" class="w-[100px]">
-                <img src="jfx.png" alt="" class="w-[100px]">
-                <img src="pizza.png" alt="" class="w-[100px]">
-                <img src="plant.png" alt="" class="w-[100px]">
-                <img src="rata.png" alt="" class="w-[100px]">
+    <div>
+        <div class="sponsor max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex flex-col items-center">
+            <div class="mx-4 pb-10">
+                <div class="items-center">
+                    <h2 class="text-center text-[#636363] pt-10 pb-5 text-lg">Brands that trust us</h2>
+                </div>
+                <div class="flex flex-col gap-10 items-center md:flex-row md:justify-between">
+                    <img src="blech.png" alt="" class="w-[100px]">
+                    <img src="ceria.png" alt="" class="w-[100px]">
+                    <img src="jfx.png" alt="" class="w-[100px]">
+                    <img src="pizza.png" alt="" class="w-[100px]">
+                    <img src="plant.png" alt="" class="w-[100px]">
+                    <img src="rata.png" alt="" class="w-[100px]">
+                </div>
             </div>
         </div>
     </div>
     <!-- Sponsor Start -->
 
     <!-- Services Start -->
-    <div id="services" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 py-20">
-        <div class="mx-4 flex justify-between gap-2 pb-10">
-            <div class="w-[250px] md:w-[650px]">
-                <h2 class="font-bold text-xl md:text-[40px]">Services</h2>
-                <p class="font-serif text-sm text-justify md:text-2xl md:py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fuga pariatur harum fugit sit amet alias, blanditiis, unde, ea molestias modi.</p>
-            </div>
-            <div>
-                <button class="btn-get bg-cyan-400 py-2 px-7  rounded-full text-white hover:bg-white hover:text-cyan-500 md:py-3 px-7 md:text-xl">Build Design</button>
-            </div> 
-        </div>
-        <div class="mx-[30px] flex flex-col gap-6 md:grid md:grid-cols-2 lg:grid-cols-3">
-            <div id="shopify" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl">
-                <div> 
-                    <img src="shopify.png" alt="" class="py-5">
+    <div class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100">
+        <div id="services" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto py-20">
+            <div class="mx-4 flex justify-between gap-2 pb-10">
+                <div class="w-[250px] md:w-[650px]">
+                    <h2 class="font-bold text-xl md:text-[40px]">Services</h2>
+                    <p class="font-serif text-sm text-justify md:text-2xl md:py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fuga pariatur harum fugit sit amet alias, blanditiis, unde, ea molestias modi.</p>
                 </div>
-                <div class="flex flex-col items-center">
-                    <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center lg:text-xl ">Shopify Theme Development</h1>
-                    <p class="text-sm pt-2 pb-3 text-center lg:text-[15px]">Start from 700 USD for project base or 35 USD per hour</p>
-                </div>
-            </div>
-            <div id="php" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl">
                 <div>
-                    <img src="php.png" alt="" class="py-5">
-                </div>
-                <div class="flex flex-col items-center">
-                    <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center lg:text-xl ">Web Application Development</h1>
-                    <p class="text-sm pt-2 pb-3 text-center lg:text-[15px]">Start from 1000 USD for project base or 35 USD per hour</p>
-                </div>
+                    <button class="btn-get bg-cyan-400 py-2 px-7  rounded-full text-white hover:bg-white hover:text-cyan-500 md:py-3 px-7 md:text-xl">Build Design</button>
+                </div> 
             </div>
-            <div id="asst" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl md:row-span-2 lg:row-span-2">
-                <div>
-                    <img src="assit.png" alt="" class="py-5">
+            <div class="mx-[30px] flex flex-col gap-6 md:grid md:grid-cols-2 lg:grid-cols-3">
+                <div id="shopify" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl">
+                    <div> 
+                        <img src="shopify.png" alt="" class="py-5">
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center lg:text-xl ">Shopify Theme Development</h1>
+                        <p class="text-sm pt-2 pb-3 text-center lg:text-[15px]">Start from 700 USD for project base or 35 USD per hour</p>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center">
-                    <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center">Assistent Sevices</h1>
-                    <p class="text-sm pt-2 pb-3 text-center">Start from 33 USD for project base or 35 USD per hour</p>
+                <div id="php" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl">
+                    <div>
+                        <img src="php.png" alt="" class="py-5">
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center lg:text-xl ">Web Application Development</h1>
+                        <p class="text-sm pt-2 pb-3 text-center lg:text-[15px]">Start from 1000 USD for project base or 35 USD per hour</p>
+                    </div>
                 </div>
-                <div class="pt-10 pb-3 flex flex-col items-center">
-                    <h2 class="text-slate-500 py-2 lg:pt-10 ">More Services:</h2>
-                    <h1 class="font-bold md:text-xl">Technical Assistent</h1>
-                    <h1 class="font-bold md:text-xl">Support Assistent</h1>
-                    <h1 class="font-bold md:text-xl">VIP Assistent</h1>
-                    <h1 class="font-bold md:text-xl">Social Media Admin</h1>
+                <div id="asst" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl md:row-span-2 lg:row-span-2">
+                    <div>
+                        <img src="assit.png" alt="" class="py-5">
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center">Assistent Sevices</h1>
+                        <p class="text-sm pt-2 pb-3 text-center">Start from 33 USD for project base or 35 USD per hour</p>
+                    </div>
+                    <div class="pt-10 pb-3 flex flex-col items-center">
+                        <h2 class="text-slate-500 py-2 lg:pt-10 ">More Services:</h2>
+                        <h1 class="font-bold md:text-xl">Technical Assistent</h1>
+                        <h1 class="font-bold md:text-xl">Support Assistent</h1>
+                        <h1 class="font-bold md:text-xl">VIP Assistent</h1>
+                        <h1 class="font-bold md:text-xl">Social Media Admin</h1>
+                    </div>
                 </div>
-            </div>
-            <div id="word" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl">
-                <div>
-                    <img src="word.png" alt="" class="py-5">
+                <div id="word" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl">
+                    <div>
+                        <img src="word.png" alt="" class="py-5">
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center lg:text-xl ">WordPress Theme Development</h1>
+                        <p class="text-sm pt-2 pb-3 text-center lg:text-[15px]">Start from 600 USD for project base or 35 USD per hour</p>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center">
-                    <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center lg:text-xl ">WordPress Theme Development</h1>
-                    <p class="text-sm pt-2 pb-3 text-center lg:text-[15px]">Start from 600 USD for project base or 35 USD per hour</p>
-                </div>
-            </div>
-            <div id="www" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl">
-                <div>
-                    <img src="www.png" alt="" class="py-5">
-                </div>
-                <div class="flex flex-col items-center">
-                    <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center lg:text-xl">Custom App/Plugins Development</h1>
-                    <p class="text-sm pt-2 pb-3 text-center lg:text-[15px]">Start from 300 USD for project base or 35 USD per hour</p>
+                <div id="www" class="py-5 px-5 bg-white flex flex-col items-center shadow-lg shadow-indigo-500/40 rounded-xl">
+                    <div>
+                        <img src="www.png" alt="" class="py-5">
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h1 class="text-lg font-bold pt-3 md:text-2xl md:text-center lg:text-xl">Custom App/Plugins Development</h1>
+                        <p class="text-sm pt-2 pb-3 text-center lg:text-[15px]">Start from 300 USD for project base or 35 USD per hour</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -267,231 +275,243 @@
     <!-- Services Start -->
 
     <!-- What We Do Start -->
-    <div id="what-we-do" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex justify-center items-center py-16"> 
-        <div class="mx-4">
-            <div class="flex flex-col justify-center items-center">
-                <h1 class="font-bold text-xl py-3 md:text-[40px]">What We Do</h1>
-                <p class="text-sm text-center my-5 font-serif md:text-2xl">Lorem ipsum dolor sit, quae soluta voluptate corporis praesentium, veritatis consequatur in beatae reprehenderit asperiores facere modi nam nulla.</p>
-            </div>
+    <div>
+        <div id="what-we-do" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex justify-center items-center py-16"> 
+            <div class="mx-4">
+                <div class="w-[400px] md:w-[700px] mx-auto flex flex-col justify-center items-center">
+                    <h1 class="font-bold text-xl py-3 md:text-[40px]">What We Do</h1>
+                    <p class="text-sm text-center my-5 font-serif md:text-xl">Lorem ipsum dolor sit, quae soluta voluptate corporis praesentium, veritatis consequatur in beatae reprehenderit.</p>
+                </div>
 
-            <!-- Work Position Start -->
-            <div class="grid grid-cols-2 w-[300px] mx-auto gap-5 pt-10 md:w-auto md:flex md:justify-between"> 
-                <div class="w-[150px] flex flex-col items-center justify-center md:w-auto">
-                    <img src="desain.png" alt="" class="px-5 py-5 bg-cyan-100 rounded-full items-center md:py-8 md:px-8"> 
-                    <h2 class="font-bold text-md py-2 md:text-xl">Design</h2>
-                    <p class="text-[10px] text-center w-[160px] md:text-[20px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p>
+                <!-- What Position Start -->
+                <div class="grid grid-cols-2 w-[300px] mx-auto gap-5 pt-10 md:w-auto md:flex md:justify-between"> 
+                    <div class="w-[150px] flex flex-col items-center justify-center md:w-auto">
+                        <img src="desain.png" alt="" class="px-5 py-5 bg-cyan-100 rounded-full items-center md:py-8 md:px-8"> 
+                        <h2 class="font-bold text-md py-2 md:text-xl">Design</h2>
+                        <p class="text-[10px] text-center w-[160px] md:text-[15px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p>
+                    </div>
+            
+                    <div class="w-[150px] flex flex-col items-center justify-center md:w-auto">
+                        <img src="front-end.png" alt="" class="px-5 py-6 bg-pink-100 rounded-full items-center md:py-9  md:px-8 lg:py-10">
+                        <h2 class="text-center font-bold text-md py-2 md:text-xl">Front End</h2>
+                        <p class="text-[10px] text-center w-[160px] md:text-[15px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p>
+                    </div>
+                    
+                    <div class="w-[150px] flex flex-col items-center justify-center md:w-auto">
+                        <img src="back-end.png" alt="" class="px-5 py-5 bg-orange-100 rounded-full items-center md:py-8 md:px-8 lg:py-9">
+                        <h2 class="text-center font-bold text-md py-2 md:text-xl">Back End</h2>
+                        <p class="text-[10px] text-center w-[160px] md:text-[15px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p>
+                    </div>
+                    
+                    <div class="w-[150px] flex flex-col items-center justify-center md:w-auto ">  
+                        <img src="check-test.png" alt="" class="px-5 py-4  bg-green-100 rounded-full items-center md:py-8 md:px-8">
+                        <h2 class="text-center font-bold text-md py-2 md:text-xl">Check Test</h2>
+                        <p class="text-[10px] text-center w-[160px] md:text-[15px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p> 
+                    </div>
                 </div>
-        
-                <div class="w-[150px] flex flex-col items-center justify-center md:w-auto">
-                    <img src="front-end.png" alt="" class="px-5 py-6 bg-pink-100 rounded-full items-center md:py-8 md:px-8">
-                    <h2 class="text-center font-bold text-md py-2 md:text-xl">Front End</h2>
-                    <p class="text-[10px] text-center w-[160px] md:text-[20px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p>
-                </div>
-                
-                <div class="w-[150px] flex flex-col items-center justify-center md:w-auto">
-                    <img src="back-end.png" alt="" class="px-5 py-5 bg-orange-100 rounded-full items-center md:py-8 md:px-8">
-                    <h2 class="text-center font-bold text-md py-2 md:text-xl">Back End</h2>
-                    <p class="text-[10px] text-center w-[160px] md:text-[20px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p>
-                </div>
-                
-                <div class="w-[150px] flex flex-col items-center justify-center md:w-auto ">  
-                    <img src="check-test.png" alt="" class="px-5 py-4 bg-green-100 rounded-full items-center md:py-8 md:px-8">
-                    <h2 class="text-center font-bold text-md py-2 md:text-xl">Check Test</h2>
-                    <p class="text-[10px] text-center w-[160px] md:text-[20px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p> 
-                </div>
+                <!-- Work Position End -->
             </div>
-            <!-- Work Position End -->
         </div>
     </div>
     <!-- What We Do End -->
 
     <!-- Our Work Start -->
-    <div class="our-work max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex flex-col items-center justify-center py-16">
-        <div class="mx-4">
-            <div class="flex flex-col items-center">
-                <h1 class="font-bold text-xl py-3 md:text-[40px]">Our Work</h1>
-                <p class="text-sm text-center my-5 font-serif md:text-2xl">Lorem ipsum dolor sit, quae soluta voluptate corporis praesentium, veritatis consequatur in beatae reprehenderit asperiores facere modi nam nulla.</p>
-            </div>
+    <div>
+        <div class="our-work max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex flex-col items-center justify-center py-16">
+            <div class="mx-4">
+                <div class="w-[400px] md:w-[700px] mx-auto flex flex-col items-center">
+                    <h1 class="font-bold text-xl py-3 md:text-[40px]">Our Work</h1>
+                    <p class="text-sm text-center my-5 font-serif md:text-xl">Lorem ipsum dolor sit, quae soluta voluptate corporis.</p>
+                </div>
 
-            <!-- Work Position Start -->
-            <div class="grid grid-cols-2 w-[320px] mx-auto gap-2 pt-10 md:w-auto md:gap-10">
-                <div class="">
-                    <div class="text-left">
-                        <img src="retainer.png" alt="" class="w-[155px] md:w-auto">
+                <!-- Work Position Start -->
+                <div class="grid grid-cols-2 w-[320px] mx-auto gap-2 pt-10 md:w-auto md:gap-10">
+                    <div class="">
+                        <div class="text-left">
+                            <img src="retainer.png" alt="" class="w-[155px] md:w-auto">
+                        </div>
+                        <h1 class="font-bold text-md py-3 md:text-2xl">Retainer Orely Studio</h1>
+                        <p class="text-slate-400 text-[10px] md:text-lg">https://retainer.orely.co/</p>
+                        <div class="flex flex-col py-4 gap-2">
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">WordPress</a></button>
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Tailwind</a></button>
+                        </div>
                     </div>
-                    <h1 class="font-bold text-md py-3 md:text-2xl">Retainer Orely Studio</h1>
-                    <p class="text-slate-400 text-[10px] md:text-lg">https://retainer.orely.co/</p>
-                    <div class="flex flex-col py-4 gap-2">
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">WordPress</a></button>
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Tailwind</a></button>
+                    
+                    <div class="">
+                        <div class="text-left">
+                            <img src="beacukai.png" alt="" class="w-[155px] md:w-auto">
+                        </div>            
+                        <h1 class="font-bold text-md py-3 md:text-2xl">Beacukai Sangatta</h1>
+                        <p class="text-slate-400 text-[10px] md:text-lg">https://bcsangatta.beacukai.go.id/</p>
+                        <div class="flex flex-col py-4 gap-2">
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">WordPress</a></button>
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Tailwind</a></button>
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Desaign</a></button>
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                        <div class="text-left">
+                            <img src="federasi.png" alt="" class="w-[155px] md:w-auto">
+                        </div>
+                        <h1 class="font-bold text-sm py-3 md:text-2xl">Federasi Ice Skating Indonesia</h1>
+                        <p class="text-slate-400 text-[10px] md:text-lg">https://fisid.org/</p>
+                        <div class="flex flex-col py-4 gap-2">
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">WordPress</a></button>
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Tailwind</a></button>
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Desaign</a></button>
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                        <div class="text-left">
+                            <img src="retainer.png" alt="" class="w-[155px] md:w-auto">
+                        </div>
+                        <h1 class="font-bold text-md py-3 md:text-2xl">Retainer Orely Studio</h1>
+                        <p class="text-slate-400 text-[10px] md:text-lg">https://retainer.orely.co/</p>
+                        <div class="flex flex-col py-4 gap-2">
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">WordPress</a></button>
+                            <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Tailwind</a></button>
+                        </div>
                     </div>
                 </div>
-                  
-                <div class="">
-                    <div class="text-left">
-                        <img src="beacukai.png" alt="" class="w-[155px] md:w-auto">
-                    </div>            
-                    <h1 class="font-bold text-md py-3 md:text-2xl">Beacukai Sangatta</h1>
-                    <p class="text-slate-400 text-[10px] md:text-lg">https://bcsangatta.beacukai.go.id/</p>
-                    <div class="flex flex-col py-4 gap-2">
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">WordPress</a></button>
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Tailwind</a></button>
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Desaign</a></button>
-                    </div>
+                <!-- Work Position End -->
+                <div class="flex justify-center pt-5">
+                    <button class="bg-cyan-400 py-2 px-5 rounded-full text-white hover:bg-white hover:text-cyan-500 md:py-3 px-7 md:text-xl"><a href="#what-we-do">Our Work</a></button>
                 </div>
-                  
-                <div class="">
-                    <div class="text-left">
-                        <img src="federasi.png" alt="" class="w-[155px] md:w-auto">
-                    </div>
-                    <h1 class="font-bold text-sm py-3 md:text-2xl">Federasi Ice Skating Indonesia</h1>
-                    <p class="text-slate-400 text-[10px] md:text-lg">https://fisid.org/</p>
-                    <div class="flex flex-col py-4 gap-2">
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">WordPress</a></button>
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Tailwind</a></button>
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Desaign</a></button>
-                    </div>
-                </div>
-                  
-                <div class="">
-                    <div class="text-left">
-                        <img src="retainer.png" alt="" class="w-[155px] md:w-auto">
-                    </div>
-                    <h1 class="font-bold text-md py-3 md:text-2xl">Retainer Orely Studio</h1>
-                    <p class="text-slate-400 text-[10px] md:text-lg">https://retainer.orely.co/</p>
-                    <div class="flex flex-col py-4 gap-2">
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">WordPress</a></button>
-                        <button class="w-[150px] border-2 border-solid border-gray-300 py-3 px-5 hover:bg-cyan-500 hover:text-white"><a href="#">Tailwind</a></button>
-                    </div>
-                </div>
-              </div>
-            <!-- Work Position End -->
-            <div class="flex justify-center pt-5">
-                <button class="bg-cyan-400 py-2 px-5 rounded-full text-white hover:bg-white hover:text-cyan-500 md:py-3 px-7 md:text-xl"><a href="#what-we-do">Our Work</a></button>
             </div>
         </div>
     </div>
     <!-- Our Work End -->
 
     <!-- What People Say About Start -->
-    <div id="what-people" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex flex-col items-center justify-center bg-[#F6F9FC] py-16">
-        <div class="text-center justify-center mx-4">
-            <h1 class="font-bold text-[25px] md:text-[40px]"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-yellow-500">What people say about</span> <br> Mangcoding Team?</h1>
-            <p class="py-5 md:text-2xl">“ It was a great experience to work with Mangcoding, we love the details result, and professionalism.“</p>
-            <div class="mt-10 mb-5  action flex mx-auto justify-center items-center gap-5">
-                <img src="riko.png" alt="" class="md:w-[100px]">
-            </div>  
-            <h2 class="font-bold text-lg md:text-2xl">Riko Sapto Dimo </h2>
-            <p class="text-slate-600 md:text-lg">Managing Director Orely.co</p>
-            <div class="radio-1 pt-10">
-                <input type="radio" name="radio-1">
-                <input type="radio" name="radio-1">
-                <input type="radio" name="radio-1">
+    <div class="bg-[#F6F9FC]">
+        <div id="what-people" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex flex-col items-center justify-center bg-[#F6F9FC] py-16">
+            <div class="w-[400px] md:w-[700px] mx-auto text-center justify-center mx-4">
+                <h1 class="font-bold text-[25px] md:text-[40px]"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-yellow-500">What people say about</span> <br> Mangcoding Team?</h1>
+                <p class="py-5 md:text-2xl">“ It was a great experience to work with Mangcoding, we love the details result, and professionalism.“</p>
+                <div class="mt-10 mb-5  action flex mx-auto justify-center items-center gap-5">
+                    <img src="riko.png" alt="" class="md:w-[100px]">
+                </div>  
+                <h2 class="font-bold text-lg md:text-2xl">Riko Sapto Dimo </h2>
+                <p class="text-slate-600 md:text-lg">Managing Director Orely.co</p>
+                <div class="radio-1 pt-10">
+                    <input type="radio" name="radio-1">
+                    <input type="radio" name="radio-1">
+                    <input type="radio" name="radio-1">
+                </div>
             </div>
         </div>
     </div>
     <!-- What People Say About Start -->
 
     <!-- Our Blog Start -->
-    <div id="our-blog" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex flex-col items-center justify-center py-16">
-        <div class="mx-4">
-            <div class="text-center justify-center mb-10">
-                <h1 class="font-bold text-[25px] md:text-[40px]">Our Blog</h1>
-            </div>
-            <div class="flex justify-center gap-3 mb-10 text-md ">              
-                <div class="block justify-center items-center">
-                    <div class="">
-                        <img src="blog1.png" alt="" class="p-0">
-                    </div>
-                    <p class="font-bold text-[16px] md:text-lg">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
+    <div>
+        <div id="our-blog" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex flex-col items-center justify-center py-16">
+            <div class="mx-4">
+                <div class="text-center justify-center mb-10">
+                    <h1 class="font-bold text-[25px] md:text-[40px]">Our Blog</h1>
                 </div>
-                <div class="">
-                    <div class="">
-                        <img src="blog2.png" alt="">
+                <div class="flex justify-center gap-3 mb-10 text-md ">              
+                    <div class="block justify-center items-center">
+                        <div class="">
+                            <img src="blog1.png" alt="" class="p-0">
+                        </div>
+                        <p class="font-bold text-[16px] md:text-lg">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
                     </div>
-                    <p class="font-bold text-[16px] md:text-lg">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
-                </div>
-                <div class="">
                     <div class="">
-                        <img src="blog3.png" alt="">
+                        <div class="">
+                            <img src="blog2.png" alt="">
+                        </div>
+                        <p class="font-bold text-[16px] md:text-lg">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
                     </div>
-                    <p class="font-bold text-[16px] md:text-lg">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
+                    <div class="">
+                        <div class="">
+                            <img src="blog3.png" alt="">
+                        </div>
+                        <p class="font-bold text-[16px] md:text-lg">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex justify-center">
-                <button class="bg-cyan-400 py-2 px-5 rounded-full text-white hover:bg-white hover:text-cyan-500 md:py-3 px-7 md:text-xl"><a href="#what-we-do">Our Work</a></button>
+                <div class="flex justify-center">
+                    <button class="bg-cyan-400 py-2 px-5 rounded-full text-white hover:bg-white hover:text-cyan-500 md:py-3 px-7 md:text-xl"><a href="#what-we-do">Our Work</a></button>
+                </div>
             </div>
         </div>
     </div>
     <!-- Our Blog Start -->
 
     <!-- Let's Build Start -->
-    <div id="lets-build" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto py-16 bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200">
-        <div class="mx-4 flex justify-between items-center">
-            <div class="w-[250px] md:w-auto ">
-                <h2 class="font-bold text-xl pb-3 md:text-[30px]">Let's build a website with mangcoding</h2>
-                <p class="md:text-lg">Mangcoding team will help you in branding your product</p>
+    <div class="bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200">
+        <div id="lets-build" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto py-16">
+            <div class="mx-4 flex justify-between items-center">
+                <div class="w-[250px] md:w-auto ">
+                    <h2 class="font-bold text-xl pb-3 md:text-[30px]">Let's build a website with mangcoding</h2>
+                    <p class="md:text-lg">Mangcoding team will help you in branding your product</p>
+                </div>
+                <div>
+                    <button class="btn-get bg-cyan-400 py-2 px-5 rounded-full text-white hover:bg-white hover:text-cyan-500 md:py-3 md:px-7">Build Website Now</button>
+                </div> 
             </div>
-            <div>
-                <button class="btn-get bg-cyan-400 py-2 px-5 rounded-full text-white hover:bg-white hover:text-cyan-500 md:py-3 md:px-7">Build Website Now</button>
-            </div> 
         </div>
     </div>
     <!-- Let's Build Start -->
 
     <!-- Footer Start -->
-    <div id="contact" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto pb-10 ">
-        <div class="flex flex-col mx-4 md:flex-row md:gap-7 ">
-            <div class="py-10 md:w-[30%]">
-                <div class="flex gap-2 items-center">
-                    <img src="logo.svg" alt=""><span>Mangcoding</span>
-                </div>
-                <div class="py-10 md:py-7">
-                    <p>Mangcoding Team Will Help You In Branding Your Product  asdMangcoding Team Will Help You In Branding Your Product asdMangcoding Team Will Help.</p>
-                </div>
-                <div class="flex gap-3">
-                    <a href="#"><img src="instagram.png" alt=""></a>
-                    <a href="#"><img src="github.png" alt=""></a>
-                    <a href="#"><img src="youtube.png" alt=""></a>
-                    <a href="#"><img src="link.png" alt=""></a>
-                </div>
-            </div>
-            <div class="flex pb-10 md:py-10 md:gap-2">
-                <div class="flex flex-col gap-5 w-1/2">
-                    <h1 class="font-bold text-lg">Mangcoding</h1>
-                    <a href="#" class="hover:text-cyan-500 hover:animate-bounce">Home</a> 
-                    <a href="#what-people" class="hover:text-cyan-500 hover:animate-bounce">About</a>
-                    <a href="#services" class="hover:text-cyan-500 hover:animate-bounce">Services</a>
-                    <a href="#what-we-do" class="hover:text-cyan-500 hover:animate-bounce">Our Work</a>
-                    <a href="#our-blog" class="hover:text-cyan-500 hover:animate-bounce">Blog</a>
-                    <a href="#lets-build" class="hover:text-cyan-500 hover:animate-bounce">Resource</a>
-                    <a href="#contact" class="hover:text-cyan-500 hover:animate-bounce">Contact</a>
-                </div>
-                <div class="flex flex-col gap-5">
-                    <h1 class="font-bold text-lg">Services</h1>
-                    <a href="#word" class="hover:text-cyan-500 hover:animate-bounce">Custom WordPress Theme Development</a>
-                    <a href="#php" class="hover:text-cyan-500 hover:animate-bounce">Custom Plagin WordPress</a>
-                    <a href="#shopify" class="hover:text-cyan-500 hover:animate-bounce">Custom Shopify Theme Development</a>
-                    <a href="#shopify" class="hover:text-cyan-500 hover:animate-bounce">Custom App for Shopify</a>
-                    <a href="#php" class="hover:text-cyan-500 hover:animate-bounce">Web Application</a>
-                </div>
-            </div>
-            <div class="flex pb-10 md:py-10 md:gap-2">
-                <div class="flex flex-col gap-5 w-1/2">
-                    <h1 class="font-bold text-lg ">Trusted partner</h1>
-                    <img src="orely.png" alt="" class="w-[120px] md:w-[80px]">
-                    <img src="kiwa.png" alt="" class="w-[120px] md:w-[80px]">
-                </div>
-                <div class="flex flex-col gap-5 w-[285.48px]">
-                    <h1 class="font-bold text-lg">Services</h1>
-                    <div class="flex gap-2">
-                        <img src="sms.png" alt="" class="w-[25px] h-[20px]  flex gap-2"><span><a href="" class="hover:text-cyan-500">hello@mangcoding.com</a></span>
+    <div>
+        <div id="contact" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto pb-10 ">
+            <div class="flex flex-col mx-4 md:flex-row md:gap-7 ">
+                <div class="py-10 md:w-[30%]">
+                    <div class="flex gap-2 items-center">
+                        <img src="logo.svg" alt=""><span>Mangcoding</span>
                     </div>
-                    <div class="flex gap-2">
-                        <img src="telepon.png" alt="" class="w-[25px] h-[20px]  flex gap-2 "><span class="hover:text-cyan-500">0266-6532078 <br> WA 0857-5940-2332</span>
+                    <div class="py-10 md:py-7">
+                        <p>Mangcoding Team Will Help You In Branding Your Product  asdMangcoding Team Will Help You In Branding Your Product asdMangcoding Team Will Help.</p>
                     </div>
-                    <div class="flex gap-2">
-                        <img src="alamat.png" alt="" class="w-[25px] h-[20px]  flex gap-2 "><span class="hover:text-cyan-500">PT Anugrah Kreasi Digital. Karang Tengah, Cibadak - Sukabumi.</span>
+                    <div class="flex gap-3">
+                        <a href="#"><img src="instagram.png" alt=""></a>
+                        <a href="#"><img src="github.png" alt=""></a>
+                        <a href="#"><img src="youtube.png" alt=""></a>
+                        <a href="#"><img src="link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="flex pb-10 md:py-10 md:gap-2">
+                    <div class="flex flex-col gap-5 w-1/2">
+                        <h1 class="font-bold text-lg">Mangcoding</h1>
+                        <a href="#" class="hover:text-cyan-500 hover:animate-bounce">Home</a> 
+                        <a href="#what-people" class="hover:text-cyan-500 hover:animate-bounce">About</a>
+                        <a href="#services" class="hover:text-cyan-500 hover:animate-bounce">Services</a>
+                        <a href="#what-we-do" class="hover:text-cyan-500 hover:animate-bounce">Our Work</a>
+                        <a href="#our-blog" class="hover:text-cyan-500 hover:animate-bounce">Blog</a>
+                        <a href="#lets-build" class="hover:text-cyan-500 hover:animate-bounce">Resource</a>
+                        <a href="#contact" class="hover:text-cyan-500 hover:animate-bounce">Contact</a>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <h1 class="font-bold text-lg">Services</h1>
+                        <a href="#word" class="hover:text-cyan-500 hover:animate-bounce">Custom WordPress Theme Development</a>
+                        <a href="#php" class="hover:text-cyan-500 hover:animate-bounce">Custom Plagin WordPress</a>
+                        <a href="#shopify" class="hover:text-cyan-500 hover:animate-bounce">Custom Shopify Theme Development</a>
+                        <a href="#shopify" class="hover:text-cyan-500 hover:animate-bounce">Custom App for Shopify</a>
+                        <a href="#php" class="hover:text-cyan-500 hover:animate-bounce">Web Application</a>
+                    </div>
+                </div>
+                <div class="flex pb-10 md:py-10 md:gap-2">
+                    <div class="flex flex-col gap-5 w-1/2">
+                        <h1 class="font-bold text-lg ">Trusted partner</h1>
+                        <img src="orely.png" alt="" class="w-[120px] md:w-[80px]">
+                        <img src="kiwa.png" alt="" class="w-[120px] md:w-[80px]">
+                    </div>
+                    <div class="flex flex-col gap-5 w-[285.48px]">
+                        <h1 class="font-bold text-lg">Services</h1>
+                        <div class="flex gap-2">
+                            <img src="sms.png" alt="" class="w-[25px] h-[20px]  flex gap-2"><span><a href="" class="hover:text-cyan-500">hello@mangcoding.com</a></span>
+                        </div>
+                        <div class="flex gap-2">
+                            <img src="telepon.png" alt="" class="w-[25px] h-[20px]  flex gap-2 "><span class="hover:text-cyan-500">0266-6532078 <br> WA 0857-5940-2332</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <img src="alamat.png" alt="" class="w-[25px] h-[20px]  flex gap-2 "><span class="hover:text-cyan-500">PT Anugrah Kreasi Digital. Karang Tengah, Cibadak - Sukabumi.</span>
+                        </div>
                     </div>
                 </div>
             </div>
