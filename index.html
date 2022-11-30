@@ -83,7 +83,7 @@
 </head>
 <body>
     <!-- Navigasi Start -->
-    <div class="sticky top-0 shadow-lg shadow-indigo-500/40 bg-white"> 
+    <div class="sticky top-0 shadow-lg shadow-indigo-500/40 bg-white z-[5]"> 
         <div class="relative max-w-[768px] md:max-w-[1024px] lg:max-w-[1280px] mx-auto md:flex md:justify-between">
             <nav class="flex justify-between items-center py-[20px] w-full">
                 <div class="lg:flex lg:items-center">
@@ -276,7 +276,9 @@
 
     <!-- What We Do Start -->
     <div>
-        <div id="what-we-do" class="max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex justify-center items-center py-16"> 
+        <div id="what-we-do" class="relative max-w-[768px] md:max-w-[1000px] lg:max-w-[1280px] mx-auto flex justify-center items-center py-16"> 
+            <hr class="w-[200px] absolute top-[44%] border-5 border-dashed border-slate-300 z-[-1] md:w-[600px] md:top-[57%] lg:w-[900px] lg:top-[60%]">
+            <hr class="w-[200px] absolute top-[73%] border-5 border-dashed border-slate-300 z-[-1] md:hidden ">
             <div class="mx-4">
                 <div class="w-[400px] md:w-[700px] mx-auto flex flex-col justify-center items-center">
                     <h1 class="font-bold text-xl py-3 md:text-[40px]">What We Do</h1>
@@ -286,7 +288,7 @@
                 <!-- What Position Start -->
                 <div class="grid grid-cols-2 w-[300px] mx-auto gap-5 pt-10 md:w-auto md:flex md:justify-between"> 
                     <div class="w-[150px] flex flex-col items-center justify-center md:w-auto">
-                        <img src="desain.png" alt="" class="px-5 py-5 bg-cyan-100 rounded-full items-center md:py-9 md:px-8"> 
+                        <img src="desain.png" alt="" class="px-5 py-5 bg-cyan-100 rounded-full items-center md:py-8 md:px-8 lg:py-9"> 
                         <h2 class="font-bold text-md py-2 md:text-xl">Design</h2>
                         <p class="text-[10px] text-center w-[160px] md:text-[15px] md:w-auto">Create Wireframe Display Designs And Initial UI Designs For Websites</p>
                     </div>
